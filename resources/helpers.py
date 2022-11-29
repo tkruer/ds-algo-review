@@ -16,8 +16,8 @@ def handle_input(input):
 
     if input == 'BS':
         ibs_array = [1, 2, 3, 4, 5]
-        ibs_array = 3
-        src.binarysearch.iteractivebinarysearch(array=ibs_array, target=ibs_array)
+        ibs_target = 3
+        print(src.binarysearch.iteractivebinarysearch(array=ibs_array, target=ibs_target))
 
     elif input == 'Q':
         quit()
